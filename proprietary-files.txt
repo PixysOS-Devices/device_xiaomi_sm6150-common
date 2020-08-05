@@ -762,6 +762,9 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 
 # Thermal
+init.mi_thermald.rc:vendor/etc/init/init.mi_thermald.rc
+vendor/bin/mi_thermald
+vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 
 # Thermal (init script) - from LA.UM.8.9.r1-07100-SM6xx.0
